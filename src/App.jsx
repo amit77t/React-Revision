@@ -144,9 +144,35 @@ function App() {
       </section>
 
       <footer className="site-footer">
-        <a className="brand" href="#home"><span className="brand-mark" aria-hidden="true">d</span><span>daylight</span></a>
-        <p>Make room for what matters.</p>
-        <span>© 2025 Daylight Studio</span>
+        <div className="site-footer-inner">
+          <div className="footer-main">
+            <div className="footer-brand-block">
+              <a className="brand" href="#home"><span className="brand-mark" aria-hidden="true">d</span><span>daylight</span></a>
+              <p>Make room for what matters.<br />And a little room for yourself.</p>
+            </div>
+            <div className="footer-column">
+              <h2>Explore</h2>
+              <a href="#features">Why Daylight</a>
+              <a href="#how-it-works">How it works</a>
+              <a href="#get-started">Get started</a>
+            </div>
+            <div className="footer-column">
+              <h2>Our world</h2>
+              <a href="#stories">Our community</a>
+              <a href="#home">The Daylight approach</a>
+              <a href="mailto:hello@daylight.app">Get in touch</a>
+            </div>
+            <div className="footer-note">
+              <span className="footer-note-icon" aria-hidden="true">✳</span>
+              <p>A gentle reminder:<br /><strong>You’re doing just fine.</strong></p>
+            </div>
+          </div>
+          <div className="footer-bottom">
+            <span>© 2025 Daylight Studio</span>
+            <span>Made with a little sunshine <span aria-label="sunshine">☀</span></span>
+            <a href="#home">Back to top ↑</a>
+          </div>
+        </div>
       </footer>
     </main>
   )
